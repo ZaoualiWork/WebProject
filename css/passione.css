@@ -1,0 +1,73 @@
+body {
+	background-color:black;
+	background-repeat:no-repeat;
+	background-size:1360px 800px;
+
+}
+h1, h5 {
+    color: red;
+    text-align: center;
+}
+h1:hover, h5:hover {
+	color:orange;
+	text-align: center;
+}
+p {
+    font-family: white;
+    font-size: 20px;
+    color:white;
+}
+#lucky_land:hover, #blizzard:hover, #music:hover {
+	color:blue;
+}
+#lucky_land, #blizzard, #music {
+	color: red;
+    font-family: "Courier New";
+    position: absolute;
+}
+#lucky_land {
+    left: 20%;
+}
+#music {
+    left: 48%;
+}
+#blizzard {
+    left: 75%;
+}
+#passione {
+	position: relative;
+    z-index: 0;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background: black; 
+    width:30%;
+}
+div audio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.center {
+	border:10px solid red;
+    width: 47.7%;
+    display: block;
+    margin: auto;
+    vertical-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+ 
+}
+a {
+	text-decoration:none;
+}
+
+footer {
+	border:10px solid red;
+}
+
+}
